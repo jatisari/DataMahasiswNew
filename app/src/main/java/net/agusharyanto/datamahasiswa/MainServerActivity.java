@@ -89,7 +89,7 @@ public class MainServerActivity extends AppCompatActivity {
 
     private void loadDataServerVolley(){
         mahasiswaList.clear();
-        String url = "http://10.0.2.2/mahasiswa/listdata.php";
+        String url = GlobalVar.IP_SERVER+"/mahasiswa/listdata.php";
         pDialog.setMessage("Retieve Data Mahasiswa...");
         showDialog();
 
